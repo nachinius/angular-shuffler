@@ -1,6 +1,6 @@
 {
   "name": "angular-shuffler",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/nachinius/angular-shuffler",
   "description": "Implements a FisherYates shuffler as an angular module.",
   "main": "./shuffler.js",
@@ -14,5 +14,9 @@
   "devDependencies": {
     "angular": "~1.2.26",
     "angular-mocks": "~1.2.0"
-  }
+  },
+  "ignore" : [
+    "test",
+    "Gruntfile.js",
+  ]
 }
