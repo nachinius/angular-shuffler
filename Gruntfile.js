@@ -8,7 +8,7 @@ module.exports = function(grunt) {
     karma: {
       unit: {
         configFile: 'test/karma.conf.js'
-      }
+      },
       // Add a new travis ci karma configuration
       // configs here override those in our existing karma.conf.js
       travis: {
