@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "https://github.com/nachinius/angular-shuffler",
   "description": "Implements a FisherYates shuffler as an angular module.",
-  "main": "./angular-shuffler.js",
+  "main": "./shuffler.js",
   "keywords": [
     "angular",
     "shuffle",
@@ -11,4 +11,8 @@
     "javascript"
   ],
   "license": "GNU GPL v2.0",
+  "devDependencies": {
+    "angular": "~1.2.26",
+    "angular-mocks": "~1.2.0"
+  }
 }
