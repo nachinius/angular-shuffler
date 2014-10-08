@@ -17,6 +17,6 @@
   },
   "ignore" : [
     "test",
-    "Gruntfile.js",
+    "Gruntfile.js"
   ]
 }
