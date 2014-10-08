@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 
   
   // Add a new task for travis
-  grunt.registerTask('test', ['karma:travis']
+  grunt.registerTask('test', ['karma:travis']);
   // default task
-  grunt.registerTask('default', ['karma:unit']);
+  grunt.registerTask('default', ['test']);
 }
