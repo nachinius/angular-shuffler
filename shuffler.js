@@ -1,7 +1,7 @@
 (function(window, angular, undefined) {'use strict';
 
- var angularShuffler = angular.module('angulerShuffler',[]);
- angularShuffler.service('angularShuffler',function() {
+ var ShufflerModule = angular.module('Shuffler',[]);
+ ShufflerModule.service('Shuffler',function() {
 
    /**
     * @param {Array} array to shuffle
