@@ -1,0 +1,17 @@
+{
+  "name": "angular-shuffler",
+  "version": "0.0.1",
+  "description" : "todo description",
+  "repository" : "" ,
+  "README" : "",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-karma": "^0.9.0",
+    "karma": "^0.12.24",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
